@@ -1,0 +1,230 @@
+body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+main {
+    width: 1152px;
+    height: 2891px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;    
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+.Title1{
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #353837;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#description{
+    position: absolute;
+    width: 666px;
+    height: 48px;
+    left: 273px;
+    top: 748px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+#how_it_works{
+    width: 215px;
+    height: 42px;
+    left: 477px;
+    top: 702px;
+}
+#be_calm_for_your_car{
+    position: absolute;
+    width: 445px;
+    height: 28px;
+    left: 140px;
+    top: 176px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.255em;
+
+    color: #FFFFFF;
+}
+
+#quick_order{    
+    position: absolute;
+    width: 154px;
+    height: 22px;
+    left: 140px;
+    top: 233px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.09em;
+
+    color: #FFFFFF;
+}
+
+.Guide{
+    position: absolute;
+    top: 1111px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: absolute;
+    color: #000000;
+}
+
+#right_version{
+    width: 238px;
+    left: 80px;
+}
+
+#install_the_device{
+    width: 169px;
+    left: 492px;
+}
+
+#install_the_application{
+    width: 201px;
+    left: 857px;   
+}
+
+#head_features{
+    width: 141px;
+    height: 42px;
+    left: 514px;
+    top: 1428px;
+}
+
+.Features{
+position: absolute;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: absolute;
+
+color: #000000;
+}
+
+#cameras{
+    width: 150px;
+    height: 21px;
+    left: 149px;
+    top: 1665px;
+}
+
+#microphone{
+    width: 96px;
+    height: 42px;
+    left: 531px;
+    top: 1648px;
+}
+
+#tracker{
+    width: 95px;
+    height: 21px;
+    left: 884px;
+    top: 1665px;
+}
+
+#detecting{
+    width: 167px;
+    height: 21px;
+    left: 141px;
+    top: 1924px;
+}
+
+#alarm{
+    width: 99px;
+    height: 21px;
+    left: 526px;
+    top: 1924px;
+}
+
+#app{
+    width: 108px;
+    height: 21px;
+    left: 871px;
+    top: 1924px;
+}
+
+#head_pricing{
+    position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 528px;
+    top: 2093px;
+}
+
+#contacts{
+    
+    position: absolute;
+    width: 78px;
+    height: 17px;
+    left: 354px;
+    top: 2815px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 93.69%;
+    /* identical to box height, or 17px */
+
+
+    color: #353837;
+}
+
+#email{
+    position: absolute;
+    width: 132px;
+    height: 17px;
+    left: 370px;
+    top: 2838px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 93.69%;
+
+    color: #353837;
+}
