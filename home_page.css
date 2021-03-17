@@ -6,6 +6,24 @@
     left: 0;
     overflow: auto;
 } */
+
+body{
+    background-color:#F4F4F4;
+    background-image: url('Rectangle_1.png');
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: auto auto;
+    
+}
+.tiledBackground {
+  background-image: url(https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png);
+  background-size: 150px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  color: pink;
+}
+
 header {
 
     margin-top: -8px;
@@ -34,6 +52,7 @@ img {
 }
 
 #headbuttons {
+    top: 0px;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
@@ -162,7 +181,7 @@ img {
     color: #7224A9;
 }
 
-#background1 {
+/* #background1 {
 position: absolute;
 width: 100%;
 right: 100%;
@@ -171,9 +190,9 @@ right-margin: 100 %
 height: 628px;
 left: 0px;
 top: -8px;
-/* background: linear-gradient(112.1deg, rgba(62, 25, 168, 0.993687) 7.31%, #3E19A8 17.23%, rgba(29, 6, 121, 0) 63.99%), #952FB9; */
+background: linear-gradient(112.1deg, rgba(62, 25, 168, 0.993687) 7.31%, #3E19A8 17.23%, rgba(29, 6, 121, 0) 63.99%), #952FB9;
 /* background-color: #952FB9; */
-}
+/* } */
 
 
 .Title1{
@@ -210,6 +229,167 @@ top: -8px;
     left: 477px;
     top: 702px;
 }
+
+#quick_order_bg{
+    position: absolute;
+    width: 430px;
+    height: 191px;
+    left: 140px;
+    top: 265px;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+#email{
+
+position: relative;
+width: 38px;
+height: 19px;
+left: 179px;
+top: 300px;
+
+
+font-family: Hind Madurai;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.09em;
+color: #9D9D9D;
+
+}
+
+#email_box{
+    
+    
+    position: absolute;
+width: 160px;
+height: 34px;
+left: 170px;
+top: 292px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+#full_name{
+    
+position: absolute;
+width: 69px;
+height: 19px;
+left: 389px;
+top: 300px;
+
+font-family: Hind Madurai;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.09em;
+
+color: #9D9D9D;
+
+}
+
+#full_name_box{
+    position: absolute;
+width: 160px;
+height: 34px;
+left: 380px;
+top: 291px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+#phone_number{
+    position: absolute;
+width: 103px;
+height: 19px;
+left: 179px;
+top: 359px;
+
+font-family: Hind Madurai;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.09em;
+
+color: #9D9D9D;
+}
+
+#phone_number_box{
+    position: absolute;
+width: 160px;
+height: 34px;
+left: 170px;
+top: 351px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+#city{
+    position: absolute;
+width: 28px;
+height: 19px;
+left: 389px;
+top: 359px;
+
+font-family: Hind Madurai;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.09em;
+
+color: #9D9D9D;
+}
+
+#city_box{
+    position: absolute;
+width: 160px;
+height: 34px;
+left: 380px;
+top: 351px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+#order_now{
+    position: absolute;
+width: 97px;
+height: 25px;
+left: 307px;
+top: 404px;
+
+font-family: Hind Madurai;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+
+#order_now_box{
+    position: absolute;
+width: 370px;
+height: 39px;
+left: 170px;
+top: 397px;
+
+background: #3DA886;
+}
+
 #be_calm_for_your_car{
     position: absolute;
     width: 445px;
@@ -244,7 +424,302 @@ top: -8px;
     color: #FFFFFF;
 }
 
-.Guide{
+#snowflakes{
+    position: absolute;
+    width: 590.31px;
+    height: 597.73px;
+    left: 688.06px;
+    top: 18.26px;
+
+    background: url(snowflakes.png);
+}
+
+#phone_left_casing{
+    
+position: absolute;
+width: 447px;
+height: 440px;
+left: 539px;
+top: 102px;
+
+background: url(iphonex_fas.png);
+}
+
+#phone_left_logo{
+    position: absolute;
+width: 129.9px;
+height: 241.73px;
+left: 686.18px;
+top: 222.08px;
+
+background: url(car_protector_logo_fas.png);
+/* transform: matrix(1, -0.27, 0, 0.97, 0, 0); */
+}
+
+#phone_left_text{
+    position: absolute;
+width: 81.78px;
+height: 15.44px;
+left: 709.08px;
+top: 443.85px;
+
+font-family: Iceland;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+
+color: #FFFFFF;
+
+transform: matrix(1, -0.11, 0, 0.99, 0, 0);
+}
+
+#phone_left_bg{
+position: absolute;
+width: 128.65px;
+height: 415.19px;
+left: 686.18px;
+top: 114.27px;
+
+background: url(phone_left_bg.png);
+
+}
+
+#phone_right_casing{
+position: absolute;
+width: 259px;
+height: 456px;
+left: 763px;
+top: 86px;
+
+background: url(iphonex_profile.png);
+}
+
+#phone_right_logo{
+    position: absolute;
+width: 200px;
+height: 200px;
+left: 786px;
+top: 227px;
+
+background: url(phone_right_logo.png);
+}
+
+#phone_right_text{
+    position: absolute;
+width: 86px;
+height: 15px;
+left: 850px;
+top: 427px;
+
+font-family: Iceland;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+
+color: #000000;
+
+}
+
+#phone_right_bg{
+    position: absolute;
+width: 158px;
+height: 342px;
+left: 807px;
+top: 151px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #B9F4EA;
+}
+
+#how_it_works_box1_bg{
+    position: absolute;
+width: 345px;
+height: 345px;
+left: 27px;
+top: 834px;
+
+background: #FFFFFF;
+box-shadow: -3px 4px 9px 2px rgba(0, 0, 0, 0.25);
+}
+
+#how_it_works_box2_bg{
+    position: absolute;
+width: 345px;
+height: 345px;
+left: 406px;
+top: 834px;
+
+background: #FFFFFF;
+box-shadow: -3px 4px 9px 2px rgba(0, 0, 0, 0.25);
+}
+
+#how_it_works_box3_bg{
+    position: absolute;
+width: 345px;
+height: 345px;
+left: 785px;
+top: 834px;
+
+background: #FFFFFF;
+box-shadow: -3px 4px 9px 2px rgba(0, 0, 0, 0.25);
+}
+
+#how_it_works_box1_logo{
+    position: absolute;
+width: 173px;
+height: 166px;
+left: 113px;
+top: 889px;
+
+background: url(choosing.png);
+}
+
+#how_it_works_box2_logo{
+    position: absolute;
+width: 216px;
+height: 194px;
+left: 478px;
+top: 873px;
+
+background: url(upload_settings.png);
+}
+
+#how_it_works_box3_logo{
+    position: absolute;
+width: 200px;
+height: 193px;
+left: 858px;
+top: 889px;
+
+background: url(app_installing.png);
+}
+
+#features_box1_bg{
+    position: absolute;
+    width: 222px;
+    height: 210px;
+    left: 113px;
+    top: 1496px;
+
+    background: #FFFFFF;
+    box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+#features_box2_bg{
+    position: absolute;
+    width: 222px;
+    height: 210px;
+    left: 465px;
+    top: 1496px;
+
+    background: #FFFFFF;
+    box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+#features_box3_bg{
+    position: absolute;
+    width: 222px;
+    height: 210px;
+    left: 817px;
+    top: 1496px;
+
+    background: #FFFFFF;
+    box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+#features_box4_bg{
+    position: absolute;
+    width: 222px;
+    height: 210px;
+    left: 113px;
+    top: 1752px;
+
+    background: #FFFFFF;
+    box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+#features_box5_bg{
+    position: absolute;
+    width: 222px;
+    height: 210px;
+    left: 464px;
+    top: 1752px;
+
+    background: #FFFFFF;
+    box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+#features_box6_bg{
+    position: absolute;
+    width: 222px;
+    height: 210px;
+    left: 817px;
+    top: 1752px;
+
+    background: #FFFFFF;
+    box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+#features_box1_logo{
+        position: absolute;
+    width: 112px;
+    height: 112px;
+    left: 168px;
+    top: 1524px;
+
+    background: url(webcam.png);
+}
+
+#features_box2_logo{
+    position: absolute;
+    width: 96px;
+    height: 104px;
+    left: 529px;
+    top: 1532px;
+
+    background: url(mycro.png);
+}
+
+#features_box3_logo{
+    position: absolute;
+    width: 92px;
+    height: 96px;
+    left: 882px;
+    top: 1532px;
+    background: url(gps-arrow.png);
+}
+
+#features_box4_logo{
+    position: absolute;
+    width: 90px;
+    height: 122px;
+    left: 179px;
+    top: 1773px;
+    background: url(man_motion.png);
+}
+
+#features_box5_logo{
+    position: absolute;
+    width: 99px;
+    height: 118px;
+    left: 527px;
+    top: 1773px;
+
+    background: url(siren_blue_alarm.png);
+}
+
+#features_box6_logo{
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    left: 882px;
+    top: 1795px;
+
+    background: url(nine_squares.png);  
+}
+
+#how_it_works_box1_text{
     position: absolute;
     top: 1111px;
     height: 16px;
@@ -255,19 +730,36 @@ top: -8px;
     line-height: 16px;
     text-align: absolute;
     color: #000000;
-}
-
-#right_version{
     width: 238px;
     left: 80px;
 }
 
-#install_the_device{
+#how_it_works_box2_text{
+        position: absolute;
+    top: 1111px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: absolute;
+    color: #000000;
     width: 169px;
     left: 492px;
 }
 
-#install_the_application{
+#how_it_works_box3_text{
+        position: absolute;
+    top: 1111px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: absolute;
+    color: #000000;
     width: 201px;
     left: 857px;   
 }
@@ -279,62 +771,129 @@ top: -8px;
     top: 1428px;
 }
 
-.Features{
-position: absolute;
+#features_box1_text{
+     position: absolute;
 
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
 
-text-align: absolute;
+    text-align: absolute;
 
-color: #000000;
-}
-
-#cameras{
+    color: #000000; 
+    
     width: 150px;
     height: 21px;
     left: 149px;
-    top: 1665px;
+    top: 1665px; 
 }
 
-#microphone{
+#features_box2_text{
+    position: absolute;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: absolute;
+
+    color: #000000;
+    
     width: 96px;
     height: 42px;
     left: 531px;
-    top: 1648px;
+    top: 1648px;    
 }
 
-#tracker{
+#features_box3_text{
+    position: absolute;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: absolute;
+
+    color: #000000;
+    
     width: 95px;
     height: 21px;
     left: 884px;
     top: 1665px;
 }
 
-#detecting{
+#features_box4_text{
+    position: absolute;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: absolute;
+
+    color: #000000;   
+
     width: 167px;
     height: 21px;
     left: 141px;
-    top: 1924px;
+    top: 1924px; 
 }
 
-#alarm{
+#features_box5_text{
+    position: absolute;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: absolute;
+
+    color: #000000;   
     width: 99px;
     height: 21px;
     left: 526px;
     top: 1924px;
 }
 
-#app{
+#features_box6_text{
+    position: absolute;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: absolute;
+
+    color: #000000;
+    
     width: 108px;
     height: 21px;
     left: 871px;
-    top: 1924px;
+    top: 1924px; 
 }
 
 #head_pricing{
@@ -345,7 +904,354 @@ color: #000000;
     top: 2093px;
 }
 
-#contacts{
+#pricing_box1_bg{
+    position: absolute;
+    width: 185px;
+    height: 370px;
+    left: 297px;
+    top: 2187px;
+
+    background: #FFFFFF;
+    box-shadow: -10px 10px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#pricing_box2_bg{
+    position: absolute;
+    width: 222px;
+    height: 441px;
+    left: 465px;
+    top: 2156px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#pricing_box3_bg{
+    position: absolute;
+    width: 185px;
+    height: 370px;
+    left: 676px;
+    top: 2187px;
+
+    background: #FFFFFF;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#pricing_box1_pic{
+    position: absolute;
+    width: 185px;
+    height: 370px;
+    left: 319px;
+    top: 2200px;
+    background-image: url(basic.png);
+    background-repeat: no-repeat;
+}
+
+#pricing_box2_pic{
+    position: absolute;
+    width: 222px;
+    height: 441px;
+    left: 507px;
+    top: 2141px;
+    background-image: url(advanced.png);
+    background-repeat: no-repeat;
+}
+
+#pricing_box3_pic{
+    position: absolute;
+    width: 185px;
+    height: 370px;
+    left: 700px;
+    top: 2166px;
+    background-image: url(premium.png);
+    background-repeat: no-repeat;
+}
+
+#pricing_box1_text1{
+    position: absolute;
+    width: 68px;
+    height: 28px;
+    left: 355px;
+    top: 2295px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #726F6F;
+}
+
+#pricing_box2_text1{
+    position: absolute;
+    width: 124px;
+    height: 28px;
+    left: 514px;
+    top: 2283px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #952FB9;
+}
+
+#pricing_box3_text1{
+    position: absolute;
+    width: 108px;
+    height: 28px;
+    left: 715px;
+    top: 2295px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #3E19A8;
+}
+
+#pricing_box1_text2{
+    position: absolute;
+    width: 96px;
+    height: 66px;
+    left: 335px;
+    top: 2342px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 125%;
+    /* or 22px */
+
+
+    color: #353837;   
+}
+
+#pricing_box2_text2{
+    position: absolute;
+    width: 99px;
+    height: 96px;
+    left: 526px;
+    top: 2331px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #353837;
+}
+
+#pricing_box3_text2{
+    position: absolute;
+    width: 170px;
+    height: 112px;
+    left: 708px;
+    top: 2332px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+
+    color: #353837;
+}
+
+#pricing_box1_text3{
+    
+    position: absolute;
+    width: 84px;
+    height: 28px;
+    left: 347px;
+    top: 2449px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+#pricing_box2_text3{
+    position: absolute;
+    width: 102px;
+    height: 33px;
+    left: 525px;
+    top: 2484px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+
+    text-align: center;
+
+    color: #9C3CBD;
+}
+
+#pricing_box3_text3{
+    position: absolute;
+    width: 84px;
+    height: 28px;
+    left: 727px;
+    top: 2449px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #3E19A8;
+}
+
+#pricing_box1_button_box{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 324px;
+    top: 2489px;
+
+    background: #959393;
+    box-shadow: 0px 3px 7px #959393;
+    border-radius: 23px;
+}
+
+#pricing_box2_button_box{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 508px;
+    top: 2529px;
+
+    background: #9C3CBD;
+    box-shadow: 0px 3px 7px #9C3CBD;
+    border-radius: 23px;
+}
+
+#pricing_box3_button_box{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 704px;
+    top: 2489px;
+
+    background: #3E19A8;
+    box-shadow: 0px 3px 7px #3E19A8;
+    border-radius: 23px;
+}
+
+#pricing_box1_button_text{
+    position: absolute;
+    width: 83px;
+    height: 21px;
+    left: 345px;
+    top: 2498px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+#pricing_box2_button_text{
+    position: absolute;
+    width: 83px;
+    height: 21px;
+    left: 535px;
+    top: 2538px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+#pricing_box3_button_text{
+    position: absolute;
+    width: 83px;
+    height: 21px;
+    left: 727px;
+    top: 2498px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#footer_logo{
+    position: absolute;
+    width: 76px;
+    height: 89px;
+    left: 26px;
+    top: 2802px;
+
+    background: url(car_protector_logo.png);   
+}
+
+#footer_navigation_icon{
+    position: absolute;
+    width: 29.71px;
+    height: 38.92px;
+    left: 169px;
+    top: 2820px;
+    background: url(navigation.png);
+}
+
+#footer_navigation_text{
+    position: absolute;
+    width: 111.93px;
+    height: 44px;
+    left: 210.07px;
+    top: 2820px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #353837;
+}
+
+#footer_contacts{
     
     position: absolute;
     width: 78px;
@@ -364,7 +1270,7 @@ color: #000000;
     color: #353837;
 }
 
-#email{
+#footer_mail{
     position: absolute;
     width: 132px;
     height: 17px;
@@ -378,4 +1284,34 @@ color: #000000;
     line-height: 93.69%;
 
     color: #353837;
+}
+
+#footer_icon_fb{
+    position: absolute;
+    width: 31px;
+    height: 27px;
+    left: 799px;
+    top: 2835px;
+
+    background: url(facebook.png)
+}
+
+#footer_icon_inst{
+    position: absolute;
+    width: 47px;
+    height: 36px;
+    left: 836px;
+    top: 2829px;
+    
+    background: url(instagram.png);
+}
+
+#footer_icon_mail{
+    position: absolute;
+    width: 34px;
+    height: 38px;
+    left: 889px;
+    top: 2828px;
+
+    background: url(gmail.png);
 }
