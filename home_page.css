@@ -11,8 +11,8 @@ body{
     background-color:#F4F4F4;
     background-image: url('Rectangle_1.png');
     background-repeat: no-repeat;
-    background-position: 0% 0%;
-    background-size: auto auto;
+    background-position: 50% 0%;
+    background-size: 100% 900%;
     
 }
 .tiledBackground {
@@ -426,10 +426,10 @@ background: #3DA886;
 
 #snowflakes{
     position: absolute;
-    width: 590.31px;
-    height: 597.73px;
-    left: 688.06px;
-    top: 18.26px;
+    width: 898px;
+    height: 669px;
+    left: 365px;
+    top: 8px;
 
     background: url(snowflakes.png);
 }
