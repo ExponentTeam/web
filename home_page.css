@@ -70,11 +70,11 @@ img
     position: absolute;
     width: 116px;
     height: 35px;
-    right: 30px;
+    left: 30px;
     top: 8px;
-    background: #952FB9;
     border-radius: 8px;
 }
+
 
 #CarProtector
 {
@@ -175,7 +175,7 @@ img
     width: 116px;
     height: 35px;
     right: 30px;
-    top: 8px;
+    top: 12px;
     background: #FFFFFF;
     border-radius: 8px;
     transition: .5s;
@@ -219,8 +219,8 @@ img
     position: absolute;
     width: 90px;
     height: 16px;
-    right: 40px;
-    top: 17px;
+    right: 44px;
+    top: 25px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -401,7 +401,7 @@ img
     width: 97px;
     height: 25px;
     left: 307px;
-    top: 404px;
+    top: 406px;
 
     font-family: Hind Madurai;
     font-style: normal;
@@ -469,106 +469,15 @@ img
     background: url(snowflakes.png);
 }
 
-#phone_left_casing
+#phones
 {
     position: absolute;
-    width: 447px;
-    height: 440px;
-    left: 539px;
-    top: 102px;
-
-    background: url(iphonex_fas.png);
-}
-
-#phone_left_logo
-{
-    position: absolute;
-    width: 129.9px;
-    height: 241.73px;
-    left: 686.18px;
-    top: 222.08px;
-
-    background: url(car_protector_logo_fas.png);
-}
-
-#phone_left_text
-{
-    position: absolute;
-    width: 81.78px;
-    height: 15.44px;
-    left: 709.08px;
-    top: 443.85px;
-
-    font-family: Iceland;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
-
-    color: #FFFFFF;
-
-    transform: matrix(1, -0.11, 0, 0.99, 0, 0);
-}
-
-#phone_left_bg
-{
-    position: absolute;
-    width: 128.65px;
-    height: 415.19px;
-    left: 686.18px;
-    top: 114.27px;
-
-    background: url(phone_left_bg.png);
-}
-
-#phone_right_casing
-{
-    position: absolute;
-    width: 259px;
+    width: 483px;
     height: 456px;
-    left: 763px;
+    left: 539px;
     top: 86px;
 
-    background: url(iphonex_profile.png);
-}
-
-#phone_right_logo
-{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    left: 786px;
-    top: 227px;
-
-    background: url(phone_right_logo.png);
-}
-
-#phone_right_text
-{
-    position: absolute;
-    width: 86px;
-    height: 15px;
-    left: 850px;
-    top: 427px;
-
-    font-family: Iceland;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
-
-    color: #000000;
-}
-
-#phone_right_bg
-{
-    position: absolute;
-    width: 158px;
-    height: 342px;
-    left: 807px;
-    top: 151px;
-
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #B9F4EA;
+    background: url(phones.png);   
 }
 
 #how_it_works_box1_bg
@@ -1290,7 +1199,7 @@ img
     width: 76px;
     height: 89px;
     left: 26px;
-    top: 2802px;
+    top: 2790px;
 
     background: url(car_protector_logo.png);
 }
