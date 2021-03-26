@@ -1,49 +1,45 @@
-/* body{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: auto;
-} */
 
-body{
+body
+{
     background-color:#F4F4F4;
     background-image: url('Rectangle_1.png');
     background-repeat: no-repeat;
-    background-position: 0% 0%;
-    background-size: auto auto;
-    
-}
-.tiledBackground {
-  background-image: url(https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png);
-  background-size: 150px;
-  width: 300px;
-  height: 300px;
-  border: 2px solid;
-  color: pink;
+    background-position: 50% 0%;
+    background-size: 100% 900%;
+
 }
 
-header {
+.tiledBackground
+{
+    background-image: url(https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png);
+    background-size: 150px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    color: pink;
+}
 
+header
+{
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
     height: 70px;
-/*     background: linear-gradient(112.1deg, rgba(62, 25, 168, 0.993687) 7.31%, #3E19A8 17.23%, rgba(29, 6, 121, 0) 63.99%), #952FB9;
- */
 }
-main {
+
+main
+{
     width: 1152px;
     height: 2891px;
     position: absolute;
     top: -8px;
     right: 0;
     left: 0;
-    margin: auto;    
+    margin: auto;
 }
 
-img {
+img
+{
     max-width: 100%;
     max-height: 100%;
     display: block;
@@ -51,7 +47,8 @@ img {
     border: none;
 }
 
-#headbuttons {
+#headbuttons
+{
     top: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -59,7 +56,8 @@ img {
     height: 70px;
 }
 
-#box_car_protector {
+#box_car_protector
+{
     position: absolute;
     width: 116px;
     height: 35px;
@@ -69,7 +67,8 @@ img {
     border-radius: 8px;
 }
 
-#CarProtector {
+#CarProtector
+{
     position: absolute;
     width: 190px;
     height: 35px;
@@ -83,9 +82,9 @@ img {
     color: #FFFFFF;
 }
 
-    #Products {
-        position: relative;
-    /*position: absolute;*/
+#Products
+{
+    position: relative;
     width: 48px;
     height: 21px;
     left: 0%;
@@ -96,9 +95,10 @@ img {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-    }
+}
 
-    #Support{
+#Support
+{
     position: relative;
     width: 70px;
     height: 21px;
@@ -110,9 +110,10 @@ img {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-    }
+}
 
-    #For_partners{
+#For_partners
+{
     position: relative;
     width: 120px;
     height: 21px;
@@ -124,10 +125,10 @@ img {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-    }
+}
 
-    #Blog{
-
+#Blog
+{
     position: relative;
     width: 45px;
     height: 21px;
@@ -139,9 +140,10 @@ img {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-    }
+}
 
-    #Structure{
+#Structure
+{
     position: relative;
     width: 45px;
     height: 21px;
@@ -154,9 +156,12 @@ img {
     line-height: 21px;
     color: #FFFFFF;
     text-align: right
-    }
+}
 
-#box_get_started{
+.box_get_started 
+{
+    border: 3px solid #218294;
+    text-align: center;
     position: absolute;
     width: 116px;
     height: 35px;
@@ -164,9 +169,44 @@ img {
     top: 8px;
     background: #FFFFFF;
     border-radius: 8px;
+    transition: .5s;
+    overflow: hidden;
 }
 
-#Get_started {
+.box_get_started::before,
+.box_get_started::after
+{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #218294;
+    top: 0;
+    left: -100%;
+    opacity: .5;
+    transition: .3s;
+    z-index: -1;
+}
+
+.box_get_started::after
+{
+    opacity: 1;
+    transition-delay: .2s;
+}
+
+.box_get_started:hover
+{
+    color: #fff;
+}
+
+.box_get_started:hover::before,
+.box_get_started:hover::after
+{
+    left: 0;
+}
+
+#Get_started
+{
     position: absolute;
     width: 90px;
     height: 16px;
@@ -181,34 +221,20 @@ img {
     color: #7224A9;
 }
 
-/* #background1 {
-position: absolute;
-width: 100%;
-right: 100%;
-left-margin: 0%
-right-margin: 100 %
-height: 628px;
-left: 0px;
-top: -8px;
-background: linear-gradient(112.1deg, rgba(62, 25, 168, 0.993687) 7.31%, #3E19A8 17.23%, rgba(29, 6, 121, 0) 63.99%), #952FB9;
-/* background-color: #952FB9; */
-/* } */
-
-
-.Title1{
+.Title1
+{
     position: absolute;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 42px;
-    
     color: #353837;
-    
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#description{
+#description
+{
     position: absolute;
     width: 666px;
     height: 48px;
@@ -223,14 +249,16 @@ background: linear-gradient(112.1deg, rgba(62, 25, 168, 0.993687) 7.31%, #3E19A8
     color: #000000;
 }
 
-#how_it_works{
+#how_it_works
+{
     width: 215px;
     height: 42px;
     left: 477px;
     top: 702px;
 }
 
-#quick_order_bg{
+#quick_order_bg
+{
     position: absolute;
     width: 430px;
     height: 191px;
@@ -239,158 +267,154 @@ background: linear-gradient(112.1deg, rgba(62, 25, 168, 0.993687) 7.31%, #3E19A8
     background: rgba(0, 0, 0, 0.25);
 }
 
-#email{
+#email
+{
+    position: relative;
+    width: 38px;
+    height: 19px;
+    left: 179px;
+    top: 300px;
 
-position: relative;
-width: 38px;
-height: 19px;
-left: 179px;
-top: 300px;
-
-
-font-family: Hind Madurai;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 19px;
-letter-spacing: 0.09em;
-color: #9D9D9D;
-
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.09em;
+    color: #9D9D9D;
 }
 
-#email_box{
-    
-    
+#email_box
+{
     position: absolute;
-width: 160px;
-height: 34px;
-left: 170px;
-top: 292px;
+    width: 160px;
+    height: 34px;
+    left: 170px;
+    top: 292px;
 
-border: 1px solid #FFFFFF;
-box-sizing: border-box;
-border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
-#full_name{
-    
-position: absolute;
-width: 69px;
-height: 19px;
-left: 389px;
-top: 300px;
-
-font-family: Hind Madurai;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 19px;
-letter-spacing: 0.09em;
-
-color: #9D9D9D;
-
-}
-
-#full_name_box{
+#full_name
+{
     position: absolute;
-width: 160px;
-height: 34px;
-left: 380px;
-top: 291px;
+    width: 69px;
+    height: 19px;
+    left: 389px;
+    top: 300px;
+    line-height: 19px;
+    letter-spacing: 0.09em;
+    color: #9D9D9D;
 
-border: 1px solid #FFFFFF;
-box-sizing: border-box;
-border-radius: 4px;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
 }
 
-#phone_number{
+#full_name_box
+{
     position: absolute;
-width: 103px;
-height: 19px;
-left: 179px;
-top: 359px;
+    width: 160px;
+    height: 34px;
+    left: 380px;
+    top: 291px;
 
-font-family: Hind Madurai;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 19px;
-letter-spacing: 0.09em;
-
-color: #9D9D9D;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
-#phone_number_box{
+#phone_number
+{
     position: absolute;
-width: 160px;
-height: 34px;
-left: 170px;
-top: 351px;
+    width: 103px;
+    height: 19px;
+    left: 179px;
+    top: 359px;
+    line-height: 19px;
+    letter-spacing: 0.09em;
+    color: #9D9D9D;
 
-border: 1px solid #FFFFFF;
-box-sizing: border-box;
-border-radius: 4px;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
 }
 
-#city{
+#phone_number_box
+{
     position: absolute;
-width: 28px;
-height: 19px;
-left: 389px;
-top: 359px;
-
-font-family: Hind Madurai;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 19px;
-letter-spacing: 0.09em;
-
-color: #9D9D9D;
+    width: 160px;
+    height: 34px;
+    left: 170px;
+    top: 351px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
-#city_box{
+#city
+{
     position: absolute;
-width: 160px;
-height: 34px;
-left: 380px;
-top: 351px;
+    width: 28px;
+    height: 19px;
+    left: 389px;
+    top: 359px;
+    color: #9D9D9D;
+    line-height: 19px;
+    letter-spacing: 0.09em;
 
-border: 1px solid #FFFFFF;
-box-sizing: border-box;
-border-radius: 4px;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
 }
 
-#order_now{
+#city_box
+{
     position: absolute;
-width: 97px;
-height: 25px;
-left: 307px;
-top: 404px;
+    width: 160px;
+    height: 34px;
+    left: 380px;
+    top: 351px;
 
-font-family: Hind Madurai;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 25px;
-/* identical to box height */
-
-letter-spacing: 0.09em;
-
-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
-#order_now_box{
+#order_now
+{
     position: absolute;
-width: 370px;
-height: 39px;
-left: 170px;
-top: 397px;
+    width: 97px;
+    height: 25px;
+    left: 307px;
+    top: 404px;
 
-background: #3DA886;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
 }
 
-#be_calm_for_your_car{
+#order_now_box
+{
+    position: absolute;
+    width: 370px;
+    height: 39px;
+    left: 170px;
+    top: 397px;
+    background: #3DA886;
+}
+
+#be_calm_for_your_car
+{
     position: absolute;
     width: 445px;
     height: 28px;
@@ -407,7 +431,8 @@ background: #3DA886;
     color: #FFFFFF;
 }
 
-#quick_order{    
+#quick_order
+{
     position: absolute;
     width: 154px;
     height: 22px;
@@ -424,178 +449,190 @@ background: #3DA886;
     color: #FFFFFF;
 }
 
-#snowflakes{
+#snowflakes
+{
     position: absolute;
-    width: 590.31px;
-    height: 597.73px;
-    left: 688.06px;
-    top: 18.26px;
+    width: 898px;
+    height: 669px;
+    left: 365px;
+    top: 8px;
 
     background: url(snowflakes.png);
 }
 
-#phone_left_casing{
-    
-position: absolute;
-width: 447px;
-height: 440px;
-left: 539px;
-top: 102px;
-
-background: url(iphonex_fas.png);
-}
-
-#phone_left_logo{
+#phone_left_casing
+{
     position: absolute;
-width: 129.9px;
-height: 241.73px;
-left: 686.18px;
-top: 222.08px;
+    width: 447px;
+    height: 440px;
+    left: 539px;
+    top: 102px;
 
-background: url(car_protector_logo_fas.png);
-/* transform: matrix(1, -0.27, 0, 0.97, 0, 0); */
+    background: url(iphonex_fas.png);
 }
 
-#phone_left_text{
+#phone_left_logo
+{
     position: absolute;
-width: 81.78px;
-height: 15.44px;
-left: 709.08px;
-top: 443.85px;
+    width: 129.9px;
+    height: 241.73px;
+    left: 686.18px;
+    top: 222.08px;
 
-font-family: Iceland;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 14px;
-
-color: #FFFFFF;
-
-transform: matrix(1, -0.11, 0, 0.99, 0, 0);
+    background: url(car_protector_logo_fas.png);
 }
 
-#phone_left_bg{
-position: absolute;
-width: 128.65px;
-height: 415.19px;
-left: 686.18px;
-top: 114.27px;
-
-background: url(phone_left_bg.png);
-
-}
-
-#phone_right_casing{
-position: absolute;
-width: 259px;
-height: 456px;
-left: 763px;
-top: 86px;
-
-background: url(iphonex_profile.png);
-}
-
-#phone_right_logo{
+#phone_left_text
+{
     position: absolute;
-width: 200px;
-height: 200px;
-left: 786px;
-top: 227px;
+    width: 81.78px;
+    height: 15.44px;
+    left: 709.08px;
+    top: 443.85px;
 
-background: url(phone_right_logo.png);
+    font-family: Iceland;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+
+    transform: matrix(1, -0.11, 0, 0.99, 0, 0);
 }
 
-#phone_right_text{
+#phone_left_bg
+{
     position: absolute;
-width: 86px;
-height: 15px;
-left: 850px;
-top: 427px;
+    width: 128.65px;
+    height: 415.19px;
+    left: 686.18px;
+    top: 114.27px;
 
-font-family: Iceland;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 14px;
-
-color: #000000;
-
+    background: url(phone_left_bg.png);
 }
 
-#phone_right_bg{
+#phone_right_casing
+{
     position: absolute;
-width: 158px;
-height: 342px;
-left: 807px;
-top: 151px;
+    width: 259px;
+    height: 456px;
+    left: 763px;
+    top: 86px;
 
-background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #B9F4EA;
+    background: url(iphonex_profile.png);
 }
 
-#how_it_works_box1_bg{
+#phone_right_logo
+{
     position: absolute;
-width: 345px;
-height: 345px;
-left: 27px;
-top: 834px;
+    width: 200px;
+    height: 200px;
+    left: 786px;
+    top: 227px;
 
-background: #FFFFFF;
-box-shadow: -3px 4px 9px 2px rgba(0, 0, 0, 0.25);
+    background: url(phone_right_logo.png);
 }
 
-#how_it_works_box2_bg{
+#phone_right_text
+{
     position: absolute;
-width: 345px;
-height: 345px;
-left: 406px;
-top: 834px;
+    width: 86px;
+    height: 15px;
+    left: 850px;
+    top: 427px;
 
-background: #FFFFFF;
-box-shadow: -3px 4px 9px 2px rgba(0, 0, 0, 0.25);
+    font-family: Iceland;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+
+    color: #000000;
 }
 
-#how_it_works_box3_bg{
+#phone_right_bg
+{
     position: absolute;
-width: 345px;
-height: 345px;
-left: 785px;
-top: 834px;
+    width: 158px;
+    height: 342px;
+    left: 807px;
+    top: 151px;
 
-background: #FFFFFF;
-box-shadow: -3px 4px 9px 2px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #B9F4EA;
 }
 
-#how_it_works_box1_logo{
+#how_it_works_box1_bg
+{
     position: absolute;
-width: 173px;
-height: 166px;
-left: 113px;
-top: 889px;
+    width: 345px;
+    height: 345px;
+    left: 27px;
+    top: 834px;
 
-background: url(choosing.png);
+    background: #FFFFFF;
+    box-shadow: -3px 4px 9px 2px rgba(0, 0, 0, 0.25);
 }
 
-#how_it_works_box2_logo{
+#how_it_works_box2_bg
+{
     position: absolute;
-width: 216px;
-height: 194px;
-left: 478px;
-top: 873px;
+    width: 345px;
+    height: 345px;
+    left: 406px;
+    top: 834px;
 
-background: url(upload_settings.png);
+    background: #FFFFFF;
+    box-shadow: -3px 4px 9px 2px rgba(0, 0, 0, 0.25);
 }
 
-#how_it_works_box3_logo{
+#how_it_works_box3_bg
+{
     position: absolute;
-width: 200px;
-height: 193px;
-left: 858px;
-top: 889px;
+    width: 345px;
+    height: 345px;
+    left: 785px;
+    top: 834px;
 
-background: url(app_installing.png);
+    background: #FFFFFF;
+    box-shadow: -3px 4px 9px 2px rgba(0, 0, 0, 0.25);
 }
 
-#features_box1_bg{
+#how_it_works_box1_logo
+{
+    position: absolute;
+    width: 173px;
+    height: 166px;
+    left: 113px;
+    top: 889px;
+
+    background: url(choosing.png);
+}
+
+#how_it_works_box2_logo
+{
+    position: absolute;
+    width: 216px;
+    height: 194px;
+    left: 478px;
+    top: 873px;
+
+    background: url(upload_settings.png);
+}
+
+#how_it_works_box3_logo
+{
+    position: absolute;
+    width: 200px;
+    height: 193px;
+    left: 858px;
+    top: 889px;
+
+    background: url(app_installing.png);
+}
+
+#features_box1_bg
+{
     position: absolute;
     width: 222px;
     height: 210px;
@@ -606,7 +643,8 @@ background: url(app_installing.png);
     box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-#features_box2_bg{
+#features_box2_bg
+{
     position: absolute;
     width: 222px;
     height: 210px;
@@ -617,7 +655,8 @@ background: url(app_installing.png);
     box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-#features_box3_bg{
+#features_box3_bg
+{
     position: absolute;
     width: 222px;
     height: 210px;
@@ -628,7 +667,8 @@ background: url(app_installing.png);
     box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-#features_box4_bg{
+#features_box4_bg
+{
     position: absolute;
     width: 222px;
     height: 210px;
@@ -639,7 +679,8 @@ background: url(app_installing.png);
     box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-#features_box5_bg{
+#features_box5_bg
+{
     position: absolute;
     width: 222px;
     height: 210px;
@@ -650,7 +691,8 @@ background: url(app_installing.png);
     box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-#features_box6_bg{
+#features_box6_bg
+{
     position: absolute;
     width: 222px;
     height: 210px;
@@ -661,8 +703,9 @@ background: url(app_installing.png);
     box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-#features_box1_logo{
-        position: absolute;
+#features_box1_logo
+{
+    position: absolute;
     width: 112px;
     height: 112px;
     left: 168px;
@@ -671,7 +714,8 @@ background: url(app_installing.png);
     background: url(webcam.png);
 }
 
-#features_box2_logo{
+#features_box2_logo
+{
     position: absolute;
     width: 96px;
     height: 104px;
@@ -681,7 +725,8 @@ background: url(app_installing.png);
     background: url(mycro.png);
 }
 
-#features_box3_logo{
+#features_box3_logo
+{
     position: absolute;
     width: 92px;
     height: 96px;
@@ -690,7 +735,8 @@ background: url(app_installing.png);
     background: url(gps-arrow.png);
 }
 
-#features_box4_logo{
+#features_box4_logo
+{
     position: absolute;
     width: 90px;
     height: 122px;
@@ -699,7 +745,8 @@ background: url(app_installing.png);
     background: url(man_motion.png);
 }
 
-#features_box5_logo{
+#features_box5_logo
+{
     position: absolute;
     width: 99px;
     height: 118px;
@@ -709,17 +756,19 @@ background: url(app_installing.png);
     background: url(siren_blue_alarm.png);
 }
 
-#features_box6_logo{
+#features_box6_logo
+{
     position: absolute;
     width: 92px;
     height: 92px;
     left: 882px;
     top: 1795px;
 
-    background: url(nine_squares.png);  
+    background: url(nine_squares.png);
 }
 
-#how_it_works_box1_text{
+#how_it_works_box1_text
+{
     position: absolute;
     top: 1111px;
     height: 16px;
@@ -734,8 +783,9 @@ background: url(app_installing.png);
     left: 80px;
 }
 
-#how_it_works_box2_text{
-        position: absolute;
+#how_it_works_box2_text
+{
+    position: absolute;
     top: 1111px;
     height: 16px;
     font-family: Roboto;
@@ -749,8 +799,9 @@ background: url(app_installing.png);
     left: 492px;
 }
 
-#how_it_works_box3_text{
-        position: absolute;
+#how_it_works_box3_text
+{
+    position: absolute;
     top: 1111px;
     height: 16px;
     font-family: Roboto;
@@ -761,142 +812,137 @@ background: url(app_installing.png);
     text-align: absolute;
     color: #000000;
     width: 201px;
-    left: 857px;   
+    left: 857px;
 }
 
-#head_features{
+#head_features
+{
     width: 141px;
     height: 42px;
     left: 514px;
     top: 1428px;
 }
 
-#features_box1_text{
-     position: absolute;
-
+#features_box1_text
+{
+    position: absolute;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
 
     text-align: absolute;
 
-    color: #000000; 
-    
+    color: #000000;
+
     width: 150px;
     height: 21px;
     left: 149px;
-    top: 1665px; 
+    top: 1665px;
 }
 
-#features_box2_text{
+#features_box2_text
+{
     position: absolute;
-
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
 
     text-align: absolute;
 
     color: #000000;
-    
+
     width: 96px;
     height: 42px;
     left: 531px;
-    top: 1648px;    
+    top: 1648px;
 }
 
-#features_box3_text{
+#features_box3_text
+{
     position: absolute;
-
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
 
     text-align: absolute;
 
     color: #000000;
-    
+
     width: 95px;
     height: 21px;
     left: 884px;
     top: 1665px;
 }
 
-#features_box4_text{
+#features_box4_text
+{
     position: absolute;
-
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 21px;
-    /* identical to box height */
 
     text-align: absolute;
 
-    color: #000000;   
+    color: #000000;
 
     width: 167px;
     height: 21px;
     left: 141px;
-    top: 1924px; 
+    top: 1924px;
 }
 
-#features_box5_text{
+#features_box5_text
+{
     position: absolute;
-
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
 
     text-align: absolute;
 
-    color: #000000;   
+    color: #000000;
     width: 99px;
     height: 21px;
     left: 526px;
     top: 1924px;
 }
 
-#features_box6_text{
+#features_box6_text
+{
     position: absolute;
-
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
 
     text-align: absolute;
 
     color: #000000;
-    
+
     width: 108px;
     height: 21px;
     left: 871px;
-    top: 1924px; 
+    top: 1924px;
 }
 
-#head_pricing{
+#head_pricing
+{
     position: absolute;
     width: 114px;
     height: 42px;
@@ -904,7 +950,8 @@ background: url(app_installing.png);
     top: 2093px;
 }
 
-#pricing_box1_bg{
+#pricing_box1_bg
+{
     position: absolute;
     width: 185px;
     height: 370px;
@@ -916,7 +963,8 @@ background: url(app_installing.png);
     border-radius: 10px;
 }
 
-#pricing_box2_bg{
+#pricing_box2_bg
+{
     position: absolute;
     width: 222px;
     height: 441px;
@@ -928,7 +976,8 @@ background: url(app_installing.png);
     border-radius: 10px;
 }
 
-#pricing_box3_bg{
+#pricing_box3_bg
+{
     position: absolute;
     width: 185px;
     height: 370px;
@@ -940,7 +989,8 @@ background: url(app_installing.png);
     border-radius: 10px;
 }
 
-#pricing_box1_pic{
+#pricing_box1_pic
+{
     position: absolute;
     width: 185px;
     height: 370px;
@@ -950,7 +1000,8 @@ background: url(app_installing.png);
     background-repeat: no-repeat;
 }
 
-#pricing_box2_pic{
+#pricing_box2_pic
+{
     position: absolute;
     width: 222px;
     height: 441px;
@@ -960,7 +1011,8 @@ background: url(app_installing.png);
     background-repeat: no-repeat;
 }
 
-#pricing_box3_pic{
+#pricing_box3_pic
+{
     position: absolute;
     width: 185px;
     height: 370px;
@@ -970,7 +1022,8 @@ background: url(app_installing.png);
     background-repeat: no-repeat;
 }
 
-#pricing_box1_text1{
+#pricing_box1_text1
+{
     position: absolute;
     width: 68px;
     height: 28px;
@@ -986,7 +1039,8 @@ background: url(app_installing.png);
     color: #726F6F;
 }
 
-#pricing_box2_text1{
+#pricing_box2_text1
+{
     position: absolute;
     width: 124px;
     height: 28px;
@@ -1002,7 +1056,8 @@ background: url(app_installing.png);
     color: #952FB9;
 }
 
-#pricing_box3_text1{
+#pricing_box3_text1
+{
     position: absolute;
     width: 108px;
     height: 28px;
@@ -1018,7 +1073,8 @@ background: url(app_installing.png);
     color: #3E19A8;
 }
 
-#pricing_box1_text2{
+#pricing_box1_text2
+{
     position: absolute;
     width: 96px;
     height: 66px;
@@ -1030,13 +1086,12 @@ background: url(app_installing.png);
     font-weight: normal;
     font-size: 18px;
     line-height: 125%;
-    /* or 22px */
 
-
-    color: #353837;   
+    color: #353837;
 }
 
-#pricing_box2_text2{
+#pricing_box2_text2
+{
     position: absolute;
     width: 99px;
     height: 96px;
@@ -1052,7 +1107,8 @@ background: url(app_installing.png);
     color: #353837;
 }
 
-#pricing_box3_text2{
+#pricing_box3_text2
+{
     position: absolute;
     width: 170px;
     height: 112px;
@@ -1064,14 +1120,12 @@ background: url(app_installing.png);
     font-weight: normal;
     font-size: 18px;
     line-height: 130%;
-    /* or 23px */
-
 
     color: #353837;
 }
 
-#pricing_box1_text3{
-    
+#pricing_box1_text3
+{
     position: absolute;
     width: 84px;
     height: 28px;
@@ -1086,7 +1140,8 @@ background: url(app_installing.png);
     text-align: center;
 }
 
-#pricing_box2_text3{
+#pricing_box2_text3
+{
     position: absolute;
     width: 102px;
     height: 33px;
@@ -1104,7 +1159,8 @@ background: url(app_installing.png);
     color: #9C3CBD;
 }
 
-#pricing_box3_text3{
+#pricing_box3_text3
+{
     position: absolute;
     width: 84px;
     height: 28px;
@@ -1121,7 +1177,8 @@ background: url(app_installing.png);
     color: #3E19A8;
 }
 
-#pricing_box1_button_box{
+#pricing_box1_button_box
+{
     position: absolute;
     width: 130px;
     height: 40px;
@@ -1133,7 +1190,8 @@ background: url(app_installing.png);
     border-radius: 23px;
 }
 
-#pricing_box2_button_box{
+#pricing_box2_button_box
+{
     position: absolute;
     width: 140px;
     height: 40px;
@@ -1145,7 +1203,8 @@ background: url(app_installing.png);
     border-radius: 23px;
 }
 
-#pricing_box3_button_box{
+#pricing_box3_button_box
+{
     position: absolute;
     width: 130px;
     height: 40px;
@@ -1157,7 +1216,8 @@ background: url(app_installing.png);
     border-radius: 23px;
 }
 
-#pricing_box1_button_text{
+#pricing_box1_button_text
+{
     position: absolute;
     width: 83px;
     height: 21px;
@@ -1169,7 +1229,6 @@ background: url(app_installing.png);
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
 
     text-align: center;
 
@@ -1177,7 +1236,8 @@ background: url(app_installing.png);
 }
 
 
-#pricing_box2_button_text{
+#pricing_box2_button_text
+{
     position: absolute;
     width: 83px;
     height: 21px;
@@ -1189,7 +1249,6 @@ background: url(app_installing.png);
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
 
     text-align: center;
 
@@ -1197,7 +1256,8 @@ background: url(app_installing.png);
 }
 
 
-#pricing_box3_button_text{
+#pricing_box3_button_text
+{
     position: absolute;
     width: 83px;
     height: 21px;
@@ -1209,24 +1269,25 @@ background: url(app_installing.png);
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
 
     text-align: center;
 
     color: #FFFFFF;
 }
 
-#footer_logo{
+#footer_logo
+{
     position: absolute;
     width: 76px;
     height: 89px;
     left: 26px;
     top: 2802px;
 
-    background: url(car_protector_logo.png);   
+    background: url(car_protector_logo.png);
 }
 
-#footer_navigation_icon{
+#footer_navigation_icon
+{
     position: absolute;
     width: 29.71px;
     height: 38.92px;
@@ -1235,7 +1296,8 @@ background: url(app_installing.png);
     background: url(navigation.png);
 }
 
-#footer_navigation_text{
+#footer_navigation_text
+{
     position: absolute;
     width: 111.93px;
     height: 44px;
@@ -1251,8 +1313,8 @@ background: url(app_installing.png);
     color: #353837;
 }
 
-#footer_contacts{
-    
+#footer_contacts
+{
     position: absolute;
     width: 78px;
     height: 17px;
@@ -1264,13 +1326,12 @@ background: url(app_installing.png);
     font-weight: 500;
     font-size: 18px;
     line-height: 93.69%;
-    /* identical to box height, or 17px */
-
 
     color: #353837;
 }
 
-#footer_mail{
+#footer_mail
+{
     position: absolute;
     width: 132px;
     height: 17px;
@@ -1286,7 +1347,8 @@ background: url(app_installing.png);
     color: #353837;
 }
 
-#footer_icon_fb{
+#footer_icon_fb
+{
     position: absolute;
     width: 31px;
     height: 27px;
@@ -1296,17 +1358,19 @@ background: url(app_installing.png);
     background: url(facebook.png)
 }
 
-#footer_icon_inst{
+#footer_icon_inst
+{
     position: absolute;
     width: 47px;
     height: 36px;
     left: 836px;
     top: 2829px;
-    
+
     background: url(instagram.png);
 }
 
-#footer_icon_mail{
+#footer_icon_mail
+{
     position: absolute;
     width: 34px;
     height: 38px;
