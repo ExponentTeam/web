@@ -1,6 +1,7 @@
 
 body
 {
+    top: 70px;
     background-color:#F4F4F4;
     background-image: url("images/Rectangle_1.png");
     background-repeat: no-repeat;
@@ -37,15 +38,6 @@ img
     border: none;
 }
 
-#headbuttons
-{
-    top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    height: 70px;
-}
-
 #box_car_protector
 {
     position: absolute;
@@ -72,12 +64,18 @@ img
     color: #FFFFFF;
 }
 
+#headbuttons
+{
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    height: 70px;
+}
+
 #Products
 {
     position: relative;
-    width: 48px;
-    height: 21px;
-    left: 0%;
+    margin: 10px;
     top: 25px;
     font-family: Roboto;
     font-style: normal;
@@ -90,9 +88,7 @@ img
 #Support
 {
     position: relative;
-    width: 70px;
-    height: 21px;
-    left: 5%;
+    margin: 10px;
     top: 25px;
     font-family: Roboto;
     font-style: normal;
@@ -104,10 +100,9 @@ img
 
 #For_partners
 {
+    white-space: nowrap;
     position: relative;
-    width: 120px;
-    height: 21px;
-    left: 10%;
+    margin: 10px;
     top: 25px;
     font-family: Roboto;
     font-style: normal;
@@ -120,9 +115,7 @@ img
 #Blog
 {
     position: relative;
-    width: 45px;
-    height: 21px;
-    left: 15%;
+    margin: 10px;
     top: 25px;
     font-family: Roboto;
     font-style: normal;
@@ -135,9 +128,7 @@ img
 #Structure
 {
     position: relative;
-    width: 45px;
-    height: 21px;
-    left: 20%;
+    margin: 10px;
     top: 25px;
     font-family: Roboto;
     font-style: normal;
