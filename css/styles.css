@@ -1,17 +1,20 @@
 
 body
 {
-    top: 70px;
     background-color:#F4F4F4;
     background-image: url("images/Rectangle_1.png");
     background-repeat: no-repeat;
     background-position: 50% 0%;
-    background-size: 100% 900%;
+    background-size: 100% 8800%;
 
 }
 
 header
 {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: black;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
@@ -20,13 +23,14 @@ header
 
 main
 {
+    z-index: 1;
     width: 1152px;
     height: 2891px;
     position: absolute;
-    top: -8px;
     right: 0;
     left: 0;
     margin: auto;
+    
 }
 
 img
