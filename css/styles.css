@@ -2,30 +2,11 @@
 body
 {
     background-color:#F4F4F4;
-    background-image: url('Rectangle_1.png');
+    background-image: url("images/Rectangle_1.png");
     background-repeat: no-repeat;
     background-position: 50% 0%;
     background-size: 100% 900%;
 
-}
-
-.tiledBackground {
-  background-image: url(https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png);
-  background-size: 150px;
-  width: 300px;
-  height: 300px;
-  border: 2px solid;
-  color: pink;
-}
-
-.tiledBackground
-{
-    background-image: url(https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png);
-    background-size: 150px;
-    width: 300px;
-    height: 300px;
-    border: 2px solid;
-    color: pink;
 }
 
 header
@@ -466,7 +447,7 @@ img
     left: 365px;
     top: 8px;
 
-    background: url(snowflakes.png);
+    background: url("images/snowflakes.png");
 }
 
 #phones
@@ -477,7 +458,7 @@ img
     left: 539px;
     top: 86px;
 
-    background: url(phones.png);   
+    background: url("images/phones.png");   
 }
 
 #how_it_works_box1_bg
@@ -524,7 +505,7 @@ img
     left: 113px;
     top: 889px;
 
-    background: url(choosing.png);
+    background: url("images/choosing.png");
 }
 
 #how_it_works_box2_logo
@@ -535,7 +516,7 @@ img
     left: 478px;
     top: 873px;
 
-    background: url(upload_settings.png);
+    background: url("images/upload_settings.png");
 }
 
 #how_it_works_box3_logo
@@ -546,7 +527,7 @@ img
     left: 858px;
     top: 889px;
 
-    background: url(app_installing.png);
+    background: url("images/app_installing.png");
 }
 
 #features_box1_bg
@@ -629,7 +610,7 @@ img
     left: 168px;
     top: 1524px;
 
-    background: url(webcam.png);
+    background: url("images/webcam.png");
 }
 
 #features_box2_logo
@@ -640,7 +621,7 @@ img
     left: 529px;
     top: 1532px;
 
-    background: url(mycro.png);
+    background: url("images/mycro.png");
 }
 
 #features_box3_logo
@@ -650,7 +631,7 @@ img
     height: 96px;
     left: 882px;
     top: 1532px;
-    background: url(gps-arrow.png);
+    background: url("images/gps-arrow.png");
 }
 
 #features_box4_logo
@@ -660,7 +641,7 @@ img
     height: 122px;
     left: 179px;
     top: 1773px;
-    background: url(man_motion.png);
+    background: url("images/man_motion.png");
 }
 
 #features_box5_logo
@@ -671,7 +652,7 @@ img
     left: 527px;
     top: 1773px;
 
-    background: url(siren_blue_alarm.png);
+    background: url("images/siren_blue_alarm.png");
 }
 
 #features_box6_logo
@@ -682,7 +663,7 @@ img
     left: 882px;
     top: 1795px;
 
-    background: url(nine_squares.png);
+    background: url("images/nine_squares.png");
 }
 
 #how_it_works_box1_text
@@ -914,7 +895,7 @@ img
     height: 370px;
     left: 319px;
     top: 2200px;
-    background-image: url(basic.png);
+    background-image: url("images/basic.png");
     background-repeat: no-repeat;
 }
 
@@ -925,7 +906,7 @@ img
     height: 441px;
     left: 507px;
     top: 2141px;
-    background-image: url(advanced.png);
+    background-image: url("images/advanced.png");
     background-repeat: no-repeat;
 }
 
@@ -936,7 +917,7 @@ img
     height: 370px;
     left: 700px;
     top: 2166px;
-    background-image: url(premium.png);
+    background-image: url("images/premium.png");
     background-repeat: no-repeat;
 }
 
@@ -1201,7 +1182,7 @@ img
     left: 26px;
     top: 2790px;
 
-    background: url(car_protector_logo.png);
+    background: url("images/car_protector_logo.png");
 }
 
 #footer_navigation_icon
@@ -1211,7 +1192,7 @@ img
     height: 38.92px;
     left: 169px;
     top: 2820px;
-    background: url(navigation.png);
+    background: url("images/navigation.png");
 }
 
 #footer_navigation_text
@@ -1273,7 +1254,7 @@ img
     left: 799px;
     top: 2835px;
 
-    background: url(facebook.png)
+    background: url("images/facebook.png")
 }
 
 #footer_icon_inst
@@ -1284,7 +1265,7 @@ img
     left: 836px;
     top: 2829px;
 
-    background: url(instagram.png);
+    background: url("images/instagram.png");
 }
 
 #footer_icon_mail
@@ -1295,5 +1276,5 @@ img
     left: 889px;
     top: 2828px;
 
-    background: url(gmail.png);
+    background: url("images/gmail.png);
 }
