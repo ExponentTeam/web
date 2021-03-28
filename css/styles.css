@@ -159,7 +159,7 @@ img
     text-align: center;
     line-height: 33px;
     font-family: Roboto;
-    transition: .5s;
+    transition: .6s;
     overflow: hidden;
     border-radius: 8px;
 }
@@ -194,21 +194,6 @@ img
 .box_get_started:hover::after
 {
     left: 0;
-}
-
-#Get_started {
-    position: absolute;
-    width: 90px;
-    height: 16px;
-    right: 44px;
-    top: 25px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.09em;
-    color: #7224A9;
 }
 
 .Title1
@@ -376,31 +361,23 @@ img
     border-radius: 4px;
 }
 
-#order_now
+.order_now_box
 {
     position: absolute;
-    width: 97px;
-    height: 25px;
-    left: 307px;
-    top: 406px;
-
-    font-family: Hind Madurai;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-
-    letter-spacing: 0.09em;
-    color: #FFFFFF;
-}
-
-#order_now_box
-{
-    position: absolute;
+    display: block;
     width: 370px;
     height: 39px;
     left: 170px;
     top: 397px;
     background: #3DA886;
+    transition: .5s;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: Hind Madurai;
+    line-height: 35px;
 }
 
 #be_calm_for_your_car
@@ -676,7 +653,6 @@ img
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    text-align: absolute;
     color: #000000;
     width: 238px;
     left: 80px;
@@ -692,7 +668,6 @@ img
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    text-align: absolute;
     color: #000000;
     width: 169px;
     left: 492px;
@@ -708,7 +683,6 @@ img
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    text-align: absolute;
     color: #000000;
     width: 201px;
     left: 857px;
@@ -732,8 +706,6 @@ img
     font-size: 18px;
     line-height: 21px;
 
-    text-align: absolute;
-
     color: #000000;
 
     width: 150px;
@@ -751,8 +723,6 @@ img
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-
-    text-align: absolute;
 
     color: #000000;
 
@@ -772,8 +742,6 @@ img
     font-size: 18px;
     line-height: 21px;
 
-    text-align: absolute;
-
     color: #000000;
 
     width: 95px;
@@ -790,8 +758,6 @@ img
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-
-    text-align: absolute;
 
     color: #000000;
 
@@ -811,8 +777,6 @@ img
     font-size: 18px;
     line-height: 21px;
 
-    text-align: absolute;
-
     color: #000000;
     width: 99px;
     height: 21px;
@@ -830,7 +794,6 @@ img
     font-size: 18px;
     line-height: 21px;
 
-    text-align: absolute;
 
     color: #000000;
 
@@ -1065,113 +1028,73 @@ img
     height: 28px;
     left: 727px;
     top: 2449px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-
     color: #3E19A8;
 }
 
-#pricing_box1_button_box
+.pricing_box1_button
 {
+    line-height: 38px;
+    display: block;
     position: absolute;
     width: 130px;
     height: 40px;
     left: 324px;
     top: 2489px;
-
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: Roboto;
     background: #959393;
     box-shadow: 0px 3px 7px #959393;
     border-radius: 23px;
+    transition: .6s;
 }
 
-#pricing_box2_button_box
+.pricing_box2_button
 {
+    line-height: 38px;
+    display: block;
     position: absolute;
     width: 140px;
     height: 40px;
     left: 508px;
     top: 2529px;
-
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: Roboto;
     background: #9C3CBD;
     box-shadow: 0px 3px 7px #9C3CBD;
     border-radius: 23px;
+    transition: .6s;
 }
 
-#pricing_box3_button_box
+.pricing_box3_button
 {
+    line-height: 38px;
+    display: block;
     position: absolute;
     width: 130px;
     height: 40px;
     left: 704px;
     top: 2489px;
-
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: Roboto;
     background: #3E19A8;
     box-shadow: 0px 3px 7px #3E19A8;
     border-radius: 23px;
-}
-
-#pricing_box1_button_text
-{
-    position: absolute;
-    width: 83px;
-    height: 21px;
-    left: 345px;
-    top: 2498px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-
-#pricing_box2_button_text
-{
-    position: absolute;
-    width: 83px;
-    height: 21px;
-    left: 535px;
-    top: 2538px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-
-#pricing_box3_button_text
-{
-    position: absolute;
-    width: 83px;
-    height: 21px;
-    left: 727px;
-    top: 2498px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-
-    text-align: center;
-
-    color: #FFFFFF;
+    transition: .6s;
 }
 
 #footer_logo
@@ -1276,5 +1199,5 @@ img
     left: 889px;
     top: 2828px;
 
-    background: url("images/gmail.png);
+    background: url("images/gmail.png");
 }
