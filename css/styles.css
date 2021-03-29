@@ -42,6 +42,12 @@ img
     border: none;
 }
 
+input
+{
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+
 #box_car_protector
 {
     position: absolute;
@@ -242,24 +248,7 @@ img
     background: rgba(0, 0, 0, 0.25);
 }
 
-#email
-{
-    position: relative;
-    width: 38px;
-    height: 19px;
-    left: 179px;
-    top: 300px;
-
-    font-family: Hind Madurai;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
-    letter-spacing: 0.09em;
-    color: #9D9D9D;
-}
-
-#email_box
+#email_input
 {
     position: absolute;
     width: 160px;
@@ -272,24 +261,7 @@ img
     border-radius: 4px;
 }
 
-#full_name
-{
-    position: absolute;
-    width: 69px;
-    height: 19px;
-    left: 389px;
-    top: 300px;
-    line-height: 19px;
-    letter-spacing: 0.09em;
-    color: #9D9D9D;
-
-    font-family: Hind Madurai;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-}
-
-#full_name_box
+#full_name_input
 {
     position: absolute;
     width: 160px;
@@ -302,24 +274,7 @@ img
     border-radius: 4px;
 }
 
-#phone_number
-{
-    position: absolute;
-    width: 103px;
-    height: 19px;
-    left: 179px;
-    top: 359px;
-    line-height: 19px;
-    letter-spacing: 0.09em;
-    color: #9D9D9D;
-
-    font-family: Hind Madurai;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-}
-
-#phone_number_box
+#phone_number_input
 {
     position: absolute;
     width: 160px;
@@ -331,24 +286,7 @@ img
     border-radius: 4px;
 }
 
-#city
-{
-    position: absolute;
-    width: 28px;
-    height: 19px;
-    left: 389px;
-    top: 359px;
-    color: #9D9D9D;
-    line-height: 19px;
-    letter-spacing: 0.09em;
-
-    font-family: Hind Madurai;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-}
-
-#city_box
+#city_input
 {
     position: absolute;
     width: 160px;
