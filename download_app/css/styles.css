@@ -71,7 +71,7 @@ footer
 
 #text
 { 
-    transform: skew(-30deg);
+    transform: skew(-20deg);
     position: fixed;
     width: 790px;
     height: 135px;
