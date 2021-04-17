@@ -1,38 +1,14 @@
-header
+.header
 {
-    position: fixed;
-    width: 100%;
-    z-index: 2;
     background-color: black;
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-    height: 70px;
 }
 
 html body {
     background-color: #F4F4F4;
-
 }
-
-#box_car_protector
-{
-    position: absolute;
-    width: 116px;
-    height: 35px;
-    left: 30px;
-    top: 8px;
-    border-radius: 8px;
-}
-
 
 #CarProtector
 {
-    position: absolute;
-    width: 190px;
-    height: 35px;
-    left: 40px;
-    top: 8px;
     font-family: Iceland;
     font-style: normal;
     font-weight: normal;
@@ -41,19 +17,10 @@ html body {
     color: #FFFFFF;
 }
 
-#headbuttons
-{
-    display: flex;
-    justify-content: center;
-    top: 0px;
-    height: 70px;
-}
-
 #Products
 {
     position: relative;
-    margin: 10px;
-    top: 25px;
+    top: 5px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -65,8 +32,7 @@ html body {
 #Support
 {
     position: relative;
-    margin: 10px;
-    top: 25px;
+    top: 5px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -79,8 +45,7 @@ html body {
 {
     white-space: nowrap;
     position: relative;
-    margin: 10px;
-    top: 25px;
+    top: 5px;    
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -92,8 +57,7 @@ html body {
 #Blog
 {
     position: relative;
-    margin: 10px;
-    top: 25px;
+    top: 5px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -105,15 +69,13 @@ html body {
 #Structure
 {
     position: relative;
-    margin: 10px;
-    top: 25px;
+    top: 5px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-    text-align: right
 }
 
 .box_get_started
@@ -181,8 +143,6 @@ html body {
     background: #FFFFFF;
     
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
-
 }
 
 .subscription
@@ -326,4 +286,26 @@ html body {
     
 
     color: #FFFFFF;
+}
+
+.block-item
+{
+    overflow: hidden;
+}
+
+img
+{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.block-item-3-img
+{
+    width: 100%;
+}
+
+.block-item-2-text
+{
+    
 }
