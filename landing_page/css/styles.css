@@ -1,24 +1,17 @@
 
-body
+html body 
 {
     background-color:#F4F4F4;
     background-image: url("images/Rectangle_1.png");
     background-repeat: no-repeat;
     background-position: 50% 0%;
-    background-size: 100% 8800%;
-
+    background-size: 100% 3000%;
+    z-index:2000;
 }
 
-header
+.header
 {
-    position: fixed;
-    width: 100%;
-    z-index: 2;
     background-color: black;
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-    height: 70px;
 }
 
 main
@@ -61,11 +54,6 @@ input
 
 #CarProtector
 {
-    position: absolute;
-    width: 190px;
-    height: 35px;
-    left: 40px;
-    top: 8px;
     font-family: Iceland;
     font-style: normal;
     font-weight: normal;
@@ -85,8 +73,7 @@ input
 #Products
 {
     position: relative;
-    margin: 10px;
-    top: 25px;
+    top: 5px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -98,8 +85,7 @@ input
 #Support
 {
     position: relative;
-    margin: 10px;
-    top: 25px;
+    top: 5px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -112,8 +98,7 @@ input
 {
     white-space: nowrap;
     position: relative;
-    margin: 10px;
-    top: 25px;
+    top: 5px;    
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -125,8 +110,7 @@ input
 #Blog
 {
     position: relative;
-    margin: 10px;
-    top: 25px;
+    top: 5px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -138,15 +122,13 @@ input
 #Structure
 {
     position: relative;
-    margin: 10px;
-    top: 25px;
+    top: 5px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-    text-align: right
 }
 
 .box_get_started
