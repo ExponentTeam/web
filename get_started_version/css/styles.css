@@ -137,16 +137,6 @@ html body
     left: 0;
 }
 
-.blank_line-1
-{
-    height: 72px;
-}
-
-.blank_line-2
-{
-    height: 89px;
-}
-
 html body footer
 {
     position: fixed;
@@ -288,10 +278,74 @@ main
 
 .what_page
 {
-    
+    position: absolute;
+    width: 52px;
+    height: 10px;
+    left: 132px;
+    top: 0px;
+
 }
 
 .indexer
 {
     
+}
+
+.title
+{
+    position: absolute;
+    width: 316px;
+    height: 28px;
+    left: 0px;
+    top: 25px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.radio
+{
+    position: absolute;
+    left: 38px;
+    top: 116px;
+}
+
+.next
+{
+    position: absolute;
+    width: 65.02px;
+    height: 28px;
+    left: 314.98px;
+    top: 336px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #C4C4C4;
+}
+
+.blank_line-1
+{
+    height: 12px;
+}
+
+.blank_line-2
+{
+    height: 89px;
+}
+
+.form-check-label
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
 }
