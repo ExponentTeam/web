@@ -268,7 +268,8 @@ html body footer
 
 main
 {
-    width: 300px;
+    width: 427px;
+    height: 364px;
     position: relative;
     right: 0;
     left: 0;
@@ -297,8 +298,10 @@ main
     width: 316px;
     height: 28px;
     left: 0px;
+    right: 0px;
+    margin: auto;
     top: 25px;
-
+    text-align: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -320,10 +323,26 @@ main
     position: absolute;
     width: 65.02px;
     height: 28px;
-    left: 314.98px;
-    top: 336px;
+    left: 370px;
+    top: 335px;
     font-family: Roboto;
     font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #C4C4C4;
+}
+
+.prev
+{
+    position: absolute;
+    width: 109px;
+    height: 28px;
+    left: 0px;
+    top: 336px;
+
+    font-family: Roboto;
+    font-style:  normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
