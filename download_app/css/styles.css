@@ -6,221 +6,92 @@ body
     /* height: 100%; */
     margin:0px;
     /* display: flex; */
-    background-color:#F4F4F4;
-/*     background-image: url("images/Rectangle_1.png");
+    background-color:#E5EAF5;
+    /* background-image: url("D:\web\download_app\css\images\191-1915434_purple-hero569x121-2x-purple-rectangle-png.png");
     background-repeat: no-repeat; */
-    background-position: 50% 0%;
-    background-size: 100% 8800%;
-
+    /* background-position: 50% 0%; */
+    /* background-size: 100% 8800%; */
 }
 
-header
+.header
 {
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    background-color: black;
-    height: 70px;
+    background: #ACBFE6;
 }
 
-main
-{
-    margin: 0 auto;
-    position: relative;
-    display: block;
-    z-index: 1;
-    height: 1000px;
+html body {
+    background: #E5EAF5;
 }
-
-img
-{
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: 0 auto;
-    border: none;
-}
-
-footer
-{
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    /* margin: auto; */
-    z-index: 2;
-    height: 89px;
-}
-
-
-#wraper
-{
-    position: fixed;
-    width: 1000px;
-    height: 400px;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-
-
-    transform: skew(20deg);
-    background: rgba(0,0,0,0.1);
-    background: linear-gradient(112.1deg, rgba(62, 25, 168, 0.993687) 7.31%, #3E19A8 17.23%, rgba(29, 6, 121, 0) 63.99%), #952FB9;
-}
-
-#text
-{ 
-    transform: skew(-20deg);
-    position: fixed;
-    width: 790px;
-    height: 135px;
-    left: 140px;
-    top: 80px;
-    font-family: Iceland;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 56px;
-    line-height: 35px;
-    color: #FFFFFF;
-    
-}
-
-#apple
-{
-    transform: skew(-20deg);
-  /*   position: absolute;
-    left: 26px;
-    top: 0px; */
-    position: fixed;
-    width: 415px;
-    height: 144px;
-    left: 100px;
-    top: 200px;
-    margin: auto;
-    background-image: url("images/apple.png");
-}
-
-#android
-{
-
-    transform: skew(-20deg);
-    background: url("images/android.png");
-
-    position: fixed;
-    width: 415px;
-    height: 144px;
-    left: 530px;
-    top: 200px;
-}
-
-#footer
-{
-    position: absolute;
-    width: 1152px;
-    right: 0;
-    left: 0;
-    margin: auto;
-    height: 89px;
-}
-
-#box_car_protector
-{
-    position: absolute;
-    width: 116px;
-    height: 35px;
-    left: 30px;
-    top: 8px;
-    border-radius: 8px;
-}
-
 
 #CarProtector
 {
-    position: absolute;
-    width: 190px;
-    height: 35px;
-    left: 40px;
-    top: 8px;
     font-family: Iceland;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 35px;
-    color: #FFFFFF;
-}
-
-#headbuttons
-{
-    display: flex;
-    justify-content: center;
+    font-size: 48px;
+    line-height: 47px;
+    color: #4E3883;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); 
 }
 
 #Products
 {
-    position: relative;
-    margin: 10px;
-    top: 25px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: #4E3883;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #Support
 {
-    position: relative;
-    margin: 10px;
-    top: 25px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: #4E3883;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #For_partners
 {
-    white-space: nowrap;
-    position: relative;
-    margin: 10px;
-    top: 25px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: #4E3883;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #Blog
 {
-    position: relative;
-    margin: 10px;
-    top: 25px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: #4E3883;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #Structure
 {
-    position: relative;
-    margin: 10px;
-    top: 25px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #FFFFFF;
-    text-align: right
+    color: #4E3883;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-outline
+{
+    background-color:  #4E3883;
+    color: white;
 }
 
 .box_get_started
@@ -229,7 +100,7 @@ footer
     width: 116px;
     height: 35px;
     right: 30px;
-    top: 12px;
+    top: 18px;
     border: 3px solid darkorchid;
     font-size: 18px;
     font-weight: bold;
@@ -275,6 +146,137 @@ footer
 {
     left: 0;
 }
+main
+{
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    z-index: 1;
+    height: 1000px;
+}
+
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+footer
+{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    /* margin: auto; */
+    /* z-index: 2; */
+    height: 50px;
+}
+
+
+#wraper
+{
+    position: fixed;
+    width: 1000px;
+    height: 400px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+
+    transform: skew(20deg);
+    background: rgba(0,0,0,0.1);
+    background: linear-gradient(315deg, #4E3883 0%, #995ebe 150%);;
+}
+
+#text
+{ 
+    transform: skew(-20deg);
+    position: fixed;
+    width: 790px;
+    height: 135px;
+    left: 140px;
+    top: 80px;
+    font-family: Iceland;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+#apple
+{
+    transform: skew(-20deg);
+    /*   position: absolute;
+    left: 26px;
+    top: 0px; */
+    position: fixed;
+    width: 415px;
+    height: 244px;
+    left: 10px;
+    top: 200px;
+    margin: auto;
+    background-image: url("images/app-store-badge.svg");
+    background-repeat: no-repeat;
+    background-size: 490px 244px;
+}
+
+#android
+{
+
+    transform: skew(-20deg);
+    background: url("images/Google_Play-Badge-Logo.wine.svg");
+    background-repeat: no-repeat;
+    background-size: 350px 224px;
+
+    position: fixed;
+    width: 415px;
+    height: 204px;
+    left: 430px;
+    top: 210px;
+}
+
+
+
+#box_car_protector
+{
+    position: absolute;
+    width: 116px;
+    height: 35px;
+    left: 30px;
+    top: 8px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+html body footer
+{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+    height: 89px;
+    background: #c9d9f7;
+    border-color: #952FB9;
+}
+
+#footer
+{
+    position: absolute;
+    width: 1152px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 89px;
+    border-color: #952FB9;
+    
+}
+
 
 #footer_logo
 {

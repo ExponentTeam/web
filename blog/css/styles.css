@@ -1,10 +1,10 @@
 .header
 {
-    background: #E3E1EA;
+    background: #ACBFE6;
 }
 
 html body {
-    background: #F4F4F4;
+    background: #E5EAF5;
 }
 
 #CarProtector
@@ -14,7 +14,7 @@ html body {
     font-weight: normal;
     font-size: 48px;
     line-height: 47px;
-    color: #952FB9;
+    color: #4E3883;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); 
 }
 
@@ -25,7 +25,7 @@ html body {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #952FB9;
+    color: #4E3883;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -36,7 +36,7 @@ html body {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #952FB9;
+    color: #4E3883;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -47,7 +47,7 @@ html body {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #952FB9;
+    color: #4E3883;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -58,7 +58,7 @@ html body {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #952FB9;
+    color: #4E3883;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -69,13 +69,13 @@ html body {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #952FB9;
+    color: #4E3883;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-outline
 {
-    background-color:  #952FB9;
+    background-color:  #4E3883;
     color: white;
 }
 
@@ -142,7 +142,7 @@ html body {
 .block-item
 {
     background: #FFFFFF;
-    
+    padding: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -150,6 +150,7 @@ html body {
 {
     position: relative;  
     top: 100px;
+    padding-bottom: 100px;
 }
 
 .block-item-1
@@ -204,6 +205,7 @@ html body {
 
 .subscription-news
 {
+    margin: auto;
     text-align: center;
     font-family: Roboto;
     font-style: normal;
@@ -215,7 +217,13 @@ html body {
     letter-spacing: 0.09em;
     color: #290F72;
 
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    padding: 15px;
+    border-color: #ACBFE6;
+    background-color: #ACBFE6;
+    width: 300px;
 }
 
 .subscription-footer
@@ -252,13 +260,13 @@ html body {
     font-size: 14px;
     line-height: 16px;
 
-    color: #952FB9;
+    color: #4E3883;
 
 }
 
 ::placeholder
 {
-    color: #952FB9;
+    color: #4E3883;
     
 }
 .subscription-footer-subscribe 
@@ -269,7 +277,7 @@ html body {
     right: 0;
     top: -1px;
     
-    background: #952FB9;
+    background: #4E3883;
     border-radius: 13px;
     
 }
@@ -314,7 +322,7 @@ html body footer
     bottom: 0;
     z-index: 2;
     height: 89px;
-     background: #E3E1EA;
+    background: #c9d9f7;
     border-color: #952FB9;
 }
 
